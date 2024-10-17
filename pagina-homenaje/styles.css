@@ -1,0 +1,76 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para el main */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Estilos para el título */
+#title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la imagen */
+#img-div {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+/* Estilos para el pie de foto */
+#img-caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+/* Estilos para la sección de información */
+#tribute-info {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* Estilos para la lista de trabajos */
+#tribute-info ul {
+    text-align: left;
+    margin: 20px auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+#tribute-info li {
+    padding: 5px 0;
+}
+
+/* Estilos para el enlace */
+#tribute-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+}
